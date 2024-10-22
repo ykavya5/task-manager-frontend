@@ -1,0 +1,25 @@
+.inputField{
+    width: 100%;
+    padding: 0.5em;
+    margin: 0.5em 0;    
+    border: 1px solid rgb(207, 203, 203);
+    border-radius: 0.5em;
+    height: 2.5em;
+}
+
+.submitbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(23, 162, 184, 1);
+    border: none;
+    width: 100%;
+    text-align: center;
+    height: 3em;
+    margin-top: 2em;
+    border-radius: 0.5em;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1em;
+}
