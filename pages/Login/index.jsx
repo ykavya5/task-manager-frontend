@@ -95,7 +95,7 @@ export default function Login() {
                     submitLabel={submitLabel}
                 />
                 <p className={styles.noaccount}> Have no account yet? </p>
-                <Link className={styles.registerbtn} to="/register">Register</Link>
+                <Link className={styles.registerbtn} to="/">Register</Link>
                   </div>
             </div>
         </div>
