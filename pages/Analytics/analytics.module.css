@@ -1,0 +1,64 @@
+.container {
+    width: 100vw; 
+    height: 100vh; 
+    display: flex; 
+    flex-direction: column;
+    padding: 2em;
+}
+
+h1 {
+    text-align: left;
+    font-weight: 500;
+    padding-left: 1em;
+}
+
+.analyticsSection {
+    display: flex;
+    gap: 2em;
+    padding-top: 1em;
+}
+
+.analyticsColumn {
+    width: 30%;
+    padding: 1em;
+    background-color: rgba(249, 252, 255, 1);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    line-height: 2.5em;
+    font-weight: bold;
+    width: 100%; 
+}
+
+.circle {
+    background-color: rgba(144, 196, 204, 1);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin-right: 0.5em;
+}
+
+
+.taskName {
+    flex: 1; 
+    display: flex;
+    align-items: center;
+}
+
+
+.taskCount {
+    text-align: right;
+    min-width: 2em; 
+    font-weight: 700;
+}

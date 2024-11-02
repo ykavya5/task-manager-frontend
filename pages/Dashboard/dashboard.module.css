@@ -1,0 +1,80 @@
+.dashboardContainer{
+    display: flex;
+    
+    height: 100vh;
+    padding: 0;
+    margin:0;
+}
+
+.leftContainer{
+    width: 11%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1em 0em;
+    align-items: center;
+    line-height: 2.5em;
+    background-color:  rgba(255, 255, 255, 1);
+
+}
+.topContainer{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.boardimg{
+    height: 1.3em;
+    width: 1.3em;
+    margin-right: 0.8em;
+
+}
+.title{
+    font-weight: 600;
+    font-size: 1em;
+    
+}
+.item{
+    text-decoration: none;
+   color: rgba(112, 112, 112, 1);
+   font-size: 1em;
+   display: flex;
+   align-items: center;
+   gap: 3px;
+   padding: 10px 20px;
+
+}
+
+.item:hover{
+    background-color: rgba(67, 145, 237, 0.1);
+    color: black;
+
+}
+
+.logoutButton {
+    display: flex;
+    align-items: center; 
+    gap: 8px; 
+    padding: 10px 20px;
+    background-color: transparent;
+    color: rgba(207, 54, 54, 1);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.logoutimg {
+    width: 16px; 
+    height: 16px;
+}
+
+
+.rightContainer{
+    width: 89%;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.bottomContainer{
+    width: 100vw;
+    height: 100vh;
+}

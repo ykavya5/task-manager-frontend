@@ -65,24 +65,17 @@ export default function Login() {
             }
         })
         if (!isError) {
-            try {
+           
                 const res = await login(formData);
+                console.log(res);
+                
                 if (res.status === 200) {
                     alert("Logged in successfully");
                     const token = res.data.token;
                     localStorage.setItem("token", token);
                     navigate("/");
                 }
-
-                else {
-                    alert("Something went wrong");
-                }
-            }
-            catch (e) {
-                if (e.response.status === 400) {
-                    alert("Invalid email or password");
-                }
-            }
+           
         }
     }
     const submitLabel =  "Log In";

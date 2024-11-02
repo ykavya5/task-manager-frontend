@@ -13,7 +13,7 @@ export default function Form({ formFields, onSubmit, error, errorMessages, submi
         <form onSubmit={onSubmit}>{
             formFields.map((field, index)=>(
                 <>
-                <FormField key= {index} value = {field.value} onChange = {field.onChange} name = {field.name} type= {field.type} placeholder = {field.placeholder} />
+                <FormField key= {index} value = {field?.value} onChange = {field?.onChange} name = {field?.name} type= {field?.type} placeholder = {field?.placeholder} />
                 {error[field.name]? <p className= {styles.errorMessage}> {errorMessages[field.name].message}</p>: null}
                 </>
             ))

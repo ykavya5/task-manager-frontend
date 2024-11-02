@@ -1,5 +1,5 @@
 import axios from "axios";
-import { handleApiResponse } from "../helper";
+
 export const register = async (data)=>{
     const res = await axios.post(`${import.meta.env.VITE_BASE_URL}/api/user/register`, data, {
         headers: {
@@ -8,7 +8,7 @@ export const register = async (data)=>{
         
     });
 
-    return handleApiResponse(res);
+    return res;
 }
 
 export const login = async (data)=>{
@@ -17,5 +17,6 @@ export const login = async (data)=>{
             'Content-Type': 'application/x-www-form-urlencoded'
         }
 });
-  return handleApiResponse(res);
+  return res;
 }
+

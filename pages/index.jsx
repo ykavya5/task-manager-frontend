@@ -5,6 +5,7 @@ import Board from "./Board";
 import Settings from "./Settings";
 import Analytics from "./Analytics";
 import NotFound from "./Notfound";
+import Task from "./Task";
 
 export {
     Login,
@@ -13,5 +14,6 @@ export {
     Board,
     Settings,
     Analytics,
-    NotFound
+    NotFound,
+    Task
 }
