@@ -61,10 +61,12 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    z-index: 10;
 }
 .logoutimg {
     width: 16px; 
     height: 16px;
+    z-index: 10;
 }
 
 

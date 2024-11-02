@@ -73,7 +73,7 @@ export default function Login() {
                     alert("Logged in successfully");
                     const token = res.data.token;
                     localStorage.setItem("token", token);
-                    navigate("/");
+                    navigate("/dashboard");
                 }
            
         }
